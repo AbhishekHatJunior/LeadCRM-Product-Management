@@ -766,7 +766,7 @@ p {
 }
 
 .add-product-body {
-  padding: 15px 20px;
+  padding: 15px 20px !important;
 }
 
 .custom-toast {
@@ -912,4 +912,25 @@ p {
   .add-product-btn {
     margin-top: 20px;
   }
+}
+
+
+
+/* LoadingPage Styles------------------------- */
+
+.loadPgBox{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingDataTxt{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.linearProgress{
+  width: 40%;
 }
