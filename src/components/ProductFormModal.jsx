@@ -152,6 +152,7 @@ export default function ProductFormModal({ show, onHide, product, isEdit, onSucc
                                     value={formData.price}
                                     onChange={handleChange}
                                     isInvalid={submitted && errors.price}
+                                    placeholder='In Dollars ($)'
                                 />
                                 <Form.Control.Feedback type="invalid">
                                     {errors.price}
